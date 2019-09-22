@@ -1,37 +1,33 @@
 export const cubeSettings = {
   length: 150,
   sides: {
-    F: {
-      name: 'front',
-      color: 'green'
-    },
-    B: {
-      name: 'back',
-      color: 'blue'
-    },
-    L: {
-      name: 'left',
-      color: 'orange'
-    },
-    R: {
-      name: 'right',
-      color: 'red'
-    },
-    U: {
-      name: 'up',
-      color: 'white'
-    },
-    D: {
-      name: 'down',
-      color: 'yellow'
-    }
+    F: { name: 'front', color: 'green' },
+    B: { name: 'back', color: 'blue' },
+    L: { name: 'left', color: 'orange' },
+    R: { name: 'right', color: 'red' },
+    U: { name: 'up', color: 'white' },
+    D: { name: 'down', color: 'yellow' }
+  }
+};
+
+export const cubeSettingsForF2l = {
+  ...cubeSettings,
+  clickableCorners: ['FUR', 'FDR'],
+  clickableEdges: ['BU', 'FR', 'FU', 'LU', 'RU'],
+  sides: {
+    F: { name: 'front', color: 'blue' },
+    B: { name: 'back', color: 'green' },
+    L: { name: 'left', color: 'orange' },
+    R: { name: 'right', color: 'red' },
+    U: { name: 'up', color: 'yellow' },
+    D: { name: 'down', color: 'white' }
   }
 };
 
 // key is F/B/- L/R/- U/D/-
 // type is corner/edge/center/core
 export const piecesArray = [
-  { id: 0, key: '', type: 'core' },
+  // { id: 0, key: '', type: 'core' },
 
   { id: 1, key: 'F', type: 'center' },
   { id: 2, key: 'B', type: 'center' },

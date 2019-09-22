@@ -1,10 +1,16 @@
+import PropTypes from 'prop-types';
 import React from 'react';
-import CubePiece from './CubePiece';
-import { cubeSettings, piecesArray } from '../../assets/cube-settings';
-import '../../styles/cube3D.css';
 
-const Cube3D = ({ config }) => {
-  if (!config) config = cubeSettings;
+import { cubeSettings, piecesArray } from '../../assets/cube-settings';
+import '../../styles/cube3D.scss';
+import props from '../../utils/propTypes';
+import CubeF2LPiece from './CubeF2LPiece';
+import CubePiece from './CubePiece';
+
+const Cube3D = props => {
+  const f2lPieces = ['BU', 'BUL', 'BUR', 'FDR', 'FR', 'FU', 'FUL', 'FUR', 'LU', 'RU'];
+
+  const { f2lMode } = props;
 
   return (
     <div className="cube-container">
@@ -12,21 +18,28 @@ const Cube3D = ({ config }) => {
         className="cube"
         style={{ transform: 'rotate3d(1, 0, 0, -32deg) rotate3d(0, 1, 0, -45deg)' }}
       >
-        {piecesArray.map(piece => {
-          switch (piece.type) {
-            case 'corner':
-            case 'edge':
-            case 'center':
-              return <CubePiece key={piece.key} piece={piece} config={config} />;
-            case 'core':
-              return <div key="core" />;
-            default:
-              return <div key={piece.key} />;
-          }
-        })}
+        {piecesArray.map(piece =>
+          // prettier-ignore
+          f2lMode && f2lPieces.indexOf(piece.key) > -1
+            ? (<CubeF2LPiece {...props} className="cube__piece" key={piece.key} piece={piece} />)
+            : (<CubePiece {...props} className="cube__piece" key={piece.key} piece={piece} />)
+        )}
       </div>
     </div>
   );
+};
+
+Cube3D.propTypes = {
+  config: PropTypes.shape(props.cubeSettings),
+  f2lMode: PropTypes.bool,
+  selectedPieces: PropTypes.shape(props.f2lPieces),
+  clickOnPiece: PropTypes.func
+};
+
+Cube3D.defaultProps = {
+  config: cubeSettings,
+  clickOnPiece: () => {},
+  f2lMode: false
 };
 
 export default Cube3D;

@@ -1,8 +1,8 @@
 import React from 'react';
-import Cube3D from '../components/cube3D/Cube3D';
+import SearchF2L from '../components/search-f2l/SearchF2L';
 
 function App() {
-  return <Cube3D />;
+  return <SearchF2L />;
 }
 
 export default App;
