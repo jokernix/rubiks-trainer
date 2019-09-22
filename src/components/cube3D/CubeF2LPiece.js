@@ -17,7 +17,10 @@ const CubeF2LPiece = ({ piece, selectedPieces, config, className, clickOnPiece }
     const { position, orientationFrontSide: frontSide } = selectedPieces.corner;
     let orientationIdx = position.indexOf(frontSide);
 
-    const colors = [config.sides.F.color, config.sides.R.color, config.sides.D.color];
+    let colors =
+      position.indexOf('D') > -1
+        ? [config.sides.D.color, config.sides.R.color, config.sides.F.color]
+        : [config.sides.F.color, config.sides.R.color, config.sides.D.color];
 
     for (let i = 0; i < 3; i++) {
       colorScheme[position[orientationIdx++]] = colors[i];
