@@ -8,9 +8,16 @@ import CubeF2LPiece from './CubeF2LPiece';
 import CubePiece from './CubePiece';
 
 const Cube3D = props => {
-  const f2lPieces = ['BU', 'BUL', 'BUR', 'FDR', 'FR', 'FU', 'FUL', 'FUR', 'LU', 'RU'];
+  const f2lPieces = ['BU', 'BLU', 'BRU', 'FRD', 'FR', 'FU', 'FLU', 'FRU', 'LU', 'RU'];
 
   const { f2lMode } = props;
+
+  const reg = /^(F|B)?(L|R)?(U|D)?$/;
+  piecesArray.forEach(piece => {
+    if (!reg.test(piece.key)) {
+      console.log(reg.test(piece.key), piece.key);
+    }
+  });
 
   return (
     <div className="cube-container">

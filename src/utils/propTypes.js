@@ -33,7 +33,7 @@ const f2lPieces = {
     orientationFrontSide: PropTypes.oneOf(['F', 'B', 'L', 'R', 'U', 'D']).isRequired
   }),
   corner: PropTypes.shape({
-    position: PropTypes.oneOf(['FUR', 'FDR']).isRequired,
+    position: PropTypes.oneOf(['FRU', 'FRD']).isRequired,
     orientationFrontSide: PropTypes.oneOf(['F', 'B', 'L', 'R', 'U', 'D']).isRequired
   })
 };

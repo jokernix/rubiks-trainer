@@ -12,7 +12,7 @@ export const cubeSettings = {
 
 export const cubeSettingsForF2l = {
   ...cubeSettings,
-  clickableCorners: ['FUR', 'FDR'],
+  clickableCorners: ['FRU', 'FRD'],
   clickableEdges: ['BU', 'FR', 'FU', 'LU', 'RU'],
   sides: {
     F: { name: 'front', color: 'blue' },
@@ -24,7 +24,7 @@ export const cubeSettingsForF2l = {
   }
 };
 
-// key is F/B/- L/R/- U/D/-
+// key is F/B/- U/D/- L/R/-
 // type is corner/edge/center/core
 export const piecesArray = [
   // { id: 0, key: '', type: 'core' },
@@ -49,12 +49,12 @@ export const piecesArray = [
   { id: 16, key: 'BD', type: 'edge' },
   { id: 17, key: 'BL', type: 'edge' },
 
-  { id: 18, key: 'FUL', type: 'corner' },
-  { id: 19, key: 'FUR', type: 'corner' },
-  { id: 20, key: 'FDL', type: 'corner' },
-  { id: 21, key: 'FDR', type: 'corner' },
-  { id: 22, key: 'BUL', type: 'corner' },
-  { id: 23, key: 'BUR', type: 'corner' },
-  { id: 24, key: 'BDL', type: 'corner' },
-  { id: 25, key: 'BDR', type: 'corner' }
+  { id: 18, key: 'FLU', type: 'corner' },
+  { id: 19, key: 'FRU', type: 'corner' },
+  { id: 20, key: 'FLD', type: 'corner' },
+  { id: 21, key: 'FRD', type: 'corner' },
+  { id: 22, key: 'BLU', type: 'corner' },
+  { id: 23, key: 'BRU', type: 'corner' },
+  { id: 24, key: 'BLD', type: 'corner' },
+  { id: 25, key: 'BRD', type: 'corner' }
 ];

@@ -1,19 +1,14 @@
 [
   {
-    "example": {
-      "position": "F/B/- L/R/- U/D/-"
-    }
-  },
-  {
     "id": 1,
     "setup": {
       "corner": {
         "position": "FRU",
-        "orientation_front_face": "U"
+        "orientationFrontFace": "U"
       },
       "edge": {
         "position": "RU",
-        "orientation_front_face": "U"
+        "orientationFrontFace": "U"
       }
     }
   },
@@ -22,11 +17,11 @@
     "setup": {
       "corner": {
         "position": "FRU",
-        "orientation_front_face": "F"
+        "orientationFrontFace": "F"
       },
       "edge": {
         "position": "FU",
-        "orientation_front_face": "F"
+        "orientationFrontFace": "F"
       }
     }
   },
@@ -35,11 +30,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -48,11 +43,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -61,11 +56,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -74,11 +69,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -87,11 +82,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -100,11 +95,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -113,11 +108,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -126,11 +121,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -139,11 +134,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -152,11 +147,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -165,11 +160,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -178,11 +173,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -191,11 +186,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -204,11 +199,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -217,11 +212,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -230,11 +225,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -243,11 +238,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -256,11 +251,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -269,11 +264,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -282,11 +277,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -295,11 +290,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -308,11 +303,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -321,11 +316,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -334,11 +329,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -347,11 +342,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -360,11 +355,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -373,11 +368,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -386,11 +381,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -399,11 +394,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -412,11 +407,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -425,11 +420,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -438,11 +433,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -451,11 +446,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -464,11 +459,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -477,11 +472,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -490,11 +485,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -503,11 +498,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -516,11 +511,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -529,11 +524,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   },
@@ -542,11 +537,11 @@
     "setup": {
       "corner": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       },
       "edge": {
         "position": "",
-        "orientation_front_face": ""
+        "orientationFrontFace": ""
       }
     }
   }

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+
 import { cubeSettingsForF2l } from '../../assets/cube-settings';
+import situations from '../../assets/f2l';
 import Cube3D from '../cube3D/Cube3D';
 
 class SearchF2L extends Component {
@@ -19,11 +21,17 @@ class SearchF2L extends Component {
     const { clickableCorners, clickableEdges } = this.state.config;
 
     if (clickableCorners.indexOf(key) > -1) {
-      this.clickOnCorner(key);
+      const corner = this.selectPiece(this.state.selectedPieces.corner, key);
+      const { edge } = this.state.selectedPieces;
+      this.setState(() => ({ selectedPieces: { edge, corner } }));
+      this.findSituation(corner, edge);
     }
 
     if (clickableEdges.indexOf(key) > -1) {
-      this.clickOnEdge(key);
+      const { corner } = this.state.selectedPieces;
+      const edge = this.selectPiece(this.state.selectedPieces.edge, key);
+      this.setState(() => ({ selectedPieces: { edge, corner } }));
+      this.findSituation(corner, edge);
     }
   }
 
@@ -40,14 +48,18 @@ class SearchF2L extends Component {
     return { ...piece, orientationFrontSide: key[orientationIdx + 1] };
   }
 
-  clickOnCorner(key) {
-    const corner = this.selectPiece(this.state.selectedPieces.corner, key);
-    this.setState(state => ({ selectedPieces: { ...state.selectedPieces, corner } }));
-  }
+  findSituation(corner, edge) {
+    if (corner == null || edge == null) return;
 
-  clickOnEdge(key) {
-    const edge = this.selectPiece(this.state.selectedPieces.edge, key);
-    this.setState(state => ({ selectedPieces: { ...state.selectedPieces, edge } }));
+    const situation = situations.find(
+      s =>
+        s.setup.corner.orientationFrontFace === corner.orientationFrontSide &&
+        s.setup.edge.orientationFrontFace === edge.orientationFrontSide &&
+        s.setup.corner.position === corner.position &&
+        s.setup.edge.position === edge.position
+    );
+
+    console.log(situation);
   }
 
   render() {

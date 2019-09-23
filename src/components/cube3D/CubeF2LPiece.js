@@ -19,13 +19,15 @@ const CubeF2LPiece = ({ piece, selectedPieces, config, className, clickOnPiece }
 
     let colors =
       position.indexOf('D') > -1
-        ? [config.sides.D.color, config.sides.R.color, config.sides.F.color]
-        : [config.sides.F.color, config.sides.R.color, config.sides.D.color];
+        ? [config.sides.F.color, config.sides.R.color, config.sides.D.color]
+        : [config.sides.F.color, config.sides.D.color, config.sides.R.color];
 
     for (let i = 0; i < 3; i++) {
       colorScheme[position[orientationIdx++]] = colors[i];
       if (orientationIdx > 2) orientationIdx = 0;
     }
+
+    console.log(position, frontSide);
   }
 
   if (selectedPieces && selectedPieces.edge && selectedPieces.edge.position === piece.key) {
@@ -33,6 +35,8 @@ const CubeF2LPiece = ({ piece, selectedPieces, config, className, clickOnPiece }
     const rightSide = position.replace(frontSide, '');
     colorScheme[frontSide] = config.sides.F.color;
     colorScheme[rightSide] = config.sides.R.color;
+
+    console.log(position, frontSide);
   }
 
   return (
