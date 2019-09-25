@@ -30,16 +30,24 @@ const cubeSettings = {
 const f2lPieces = {
   edge: PropTypes.shape({
     position: PropTypes.oneOf(['BU', 'FR', 'FU', 'LU', 'RU']).isRequired,
-    orientationFrontSide: PropTypes.oneOf(['F', 'B', 'L', 'R', 'U', 'D']).isRequired
+    orientationFrontFace: PropTypes.oneOf(['F', 'B', 'L', 'R', 'U', 'D']).isRequired
   }),
   corner: PropTypes.shape({
     position: PropTypes.oneOf(['FRU', 'FRD']).isRequired,
-    orientationFrontSide: PropTypes.oneOf(['F', 'B', 'L', 'R', 'U', 'D']).isRequired
+    orientationFrontFace: PropTypes.oneOf(['F', 'B', 'L', 'R', 'U', 'D']).isRequired
   })
+};
+
+const situation = {
+  id: PropTypes.number.isRequired,
+  configuration: PropTypes.shape(f2lPieces).isRequired,
+  scramble: PropTypes.string.isRequired,
+  solutions: PropTypes.arrayOf(PropTypes.string)
 };
 
 export default {
   cubePiece,
   cubeSettings,
-  f2lPieces
+  f2lPieces,
+  situation
 };

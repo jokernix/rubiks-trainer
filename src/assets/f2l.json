@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "setup": {
+    "configuration": {
       "corner": {
         "position": "FRU",
         "orientationFrontFace": "U"
@@ -10,11 +10,15 @@
         "position": "RU",
         "orientationFrontFace": "U"
       }
-    }
+    },
+    "scramble": "R U R' U'",
+    "solutions": [
+      "U R U' R'"
+    ]
   },
   {
     "id": 2,
-    "setup": {
+    "configuration": {
       "corner": {
         "position": "FRU",
         "orientationFrontFace": "F"
@@ -23,526 +27,608 @@
         "position": "FU",
         "orientationFrontFace": "F"
       }
-    }
+    },
+    "scramble": "F' U' F U",
+    "solutions": ["F R' F' R"]
   },
   {
     "id": 3,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRU",
+        "orientationFrontFace": "U"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "LU",
+        "orientationFrontFace": "L"
       }
-    }
+    },
+    "scramble": "F' U F",
+    "solutions": ["y' (R' U' R)"]
   },
   {
     "id": 4,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRU",
+        "orientationFrontFace": "F"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "BU",
+        "orientationFrontFace": "U"
       }
-    }
+    },
+    "scramble": "R U' R'",
+    "solutions": ["(R U R')"]
   },
   {
     "id": 5,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRU",
+        "orientationFrontFace": "U"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "BU",
+        "orientationFrontFace": "U"
       }
-    }
+    },
+    "scramble": "R U R' U2 R U' R' U",
+    "solutions": ["(U' R U R') U2 (R U' R')"]
   },
   {
     "id": 6,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRU",
+        "orientationFrontFace": "F"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "LU",
+        "orientationFrontFace": "L"
       }
-    }
+    },
+    "scramble": "F' U' F U2 F' U F U'",
+    "solutions": ["y' (U R' U' R) U2 (R' U R)"]
   },
   {
     "id": 7,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRU",
+        "orientationFrontFace": "U"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "LU",
+        "orientationFrontFace": "U"
       }
-    }
+    },
+    "scramble": "R U R' U2 R U2 R' U",
+    "solutions": ["U' (R U2' R') U2 (R U' R')"]
   },
   {
     "id": 8,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRU",
+        "orientationFrontFace": "F"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "BU",
+        "orientationFrontFace": "B"
       }
-    }
+    },
+    "scramble": "F' U' F U2 F' U2 F U'",
+    "solutions": ["y' U (R' U2 R) U2 (R' U R)"]
   },
   {
     "id": 9,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRU",
+        "orientationFrontFace": "U"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "BU",
+        "orientationFrontFace": "U"
       }
-    }
+    },
+    "scramble": "F' U F U F' U F U'",
+    "solutions": ["U' R U' R' Dw R' U' R"]
   },
   {
     "id": 10,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRU",
+        "orientationFrontFace": "F"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "LU",
+        "orientationFrontFace": "U"
       }
-    }
+    },
+    "scramble": "R U' R' U R U R' U",
+    "solutions": ["U' (R U R' U)(R U R')"]
   },
   {
     "id": 11,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRU",
+        "orientationFrontFace": "U"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "RU",
+        "orientationFrontFace": "R"
       }
-    }
+    },
+    "scramble": "F' U F U' R U2 R' U",
+    "solutions": ["U' (R U2' R') Dw (R' U' R)"]
   },
   {
     "id": 12,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRU",
+        "orientationFrontFace": "F"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FU",
+        "orientationFrontFace": "U"
       }
-    }
+    },
+    "scramble": "R U' R' U F' U2 F U'",
+    "solutions": ["Dw (R' U2 R) Dw' (R U R')"]
   },
   {
     "id": 13,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRU",
+        "orientationFrontFace": "F"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FU",
+        "orientationFrontFace": "F"
       }
-    }
+    },
+    "scramble": "F' U F U F' U' F U'",
+    "solutions": ["y' U (R' U R U')(R' U' R)"]
   },
   {
     "id": 14,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRU",
+        "orientationFrontFace": "F"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "RU",
+        "orientationFrontFace": "U"
       }
-    }
+    },
+    "scramble": "R U' R' U' R U R' U",
+    "solutions": ["U' (R U' R' U)(R U R')"]
   },
   {
     "id": 15,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRU",
+        "orientationFrontFace": "F"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FU",
+        "orientationFrontFace": "U"
       }
-    }
+    },
+    "scramble": "R U' R' U2 F' U' F",
+    "solutions": ["y (L' U L) U2 y' (R U R')"]
   },
   {
     "id": 16,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRU",
+        "orientationFrontFace": "F"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "RU",
+        "orientationFrontFace": "R"
       }
-    }
+    },
+    "scramble": "F' U F U2 R U R'",
+    "solutions": ["(R U' R' U) Dw (R' U' R)"]
   },
   {
     "id": 17,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRU",
+        "orientationFrontFace": "R"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "RU",
+        "orientationFrontFace": "U"
       }
-    }
+    },
+    "scramble": "R U' R' U R U2 R'",
+    "solutions": ["(R U2 R') U' (R U R')"]
   },
   {
     "id": 18,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRU",
+        "orientationFrontFace": "R"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FU",
+        "orientationFrontFace": "F"
       }
-    }
+    },
+    "scramble": "F' U F U' F' U2 F",
+    "solutions": ["y' (R' U2 R) U (R' U' R)"]
   },
   {
     "id": 19,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRU",
+        "orientationFrontFace": "R"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "BU",
+        "orientationFrontFace": "U"
       }
-    }
+    },
+    "scramble": "F R' F' R2 U2 R' U'",
+    "solutions": ["U R U2 R2 (F R F')"]
   },
   {
     "id": 20,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRU",
+        "orientationFrontFace": "R"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "LU",
+        "orientationFrontFace": "L"
       }
-    }
+    },
+    "scramble": "R' F R F2 U2 F U",
+    "solutions": ["y' U' (R' U2 R) U' (R' U R)"]
   },
   {
     "id": 21,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRU",
+        "orientationFrontFace": "R"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "LU",
+        "orientationFrontFace": "U"
       }
-    }
+    },
+    "scramble": "R U' R' U2 R U R'",
+    "solutions": ["(R U' R') U2 (R U R')"]
   },
   {
     "id": 22,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRU",
+        "orientationFrontFace": "R"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "BU",
+        "orientationFrontFace": "B"
       }
-    }
+    },
+    "scramble": "F' L' U2 L F",
+    "solutions": ["y' (R' U R) U2 (R' U' R)"]
   },
   {
     "id": 23,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRU",
+        "orientationFrontFace": "R"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FU",
+        "orientationFrontFace": "U"
       }
-    }
+    },
+    "scramble": "R2 U R' U R U2 R2 U2",
+    "solutions": ["(R U R'U')U'(R U R'U')(R U R')"]
   },
   {
     "id": 24,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRU",
+        "orientationFrontFace": "R"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "RU",
+        "orientationFrontFace": "R"
       }
-    }
+    },
+    "scramble": "R U' R' F' L' U' L F U'",
+    "solutions": ["U F' L' U L F R U R'"]
   },
   {
     "id": 25,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRD",
+        "orientationFrontFace": "F"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "RU",
+        "orientationFrontFace": "U"
       }
-    }
+    },
+    "scramble": "R U R' U' F' U' F U",
+    "solutions": ["y U' (L' U L) U (R U R')"]
   },
   {
     "id": 26,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRD",
+        "orientationFrontFace": "F"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FU",
+        "orientationFrontFace": "F"
       }
-    }
+    },
+    "scramble": "F' U' F U R U R' U'",
+    "solutions": ["U (R U R') y U' (L' U' L)"]
   },
   {
     "id": 27,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRD",
+        "orientationFrontFace": "R"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "RU",
+        "orientationFrontFace": "U"
       }
-    }
+    },
+    "scramble": "R U R' U' R U R'",
+    "solutions": ["(R U' R' U)(R U' R')"]
   },
   {
     "id": 28,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRD",
+        "orientationFrontFace": "D"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FU",
+        "orientationFrontFace": "F"
       }
-    }
+    },
+    "scramble": "R' F R F' U R U' R'",
+    "solutions": ["(R U R' U') F R' F' R"]
   },
   {
     "id": 29,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRD",
+        "orientationFrontFace": "R"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FU",
+        "orientationFrontFace": "F"
       }
-    }
+    },
+    "scramble": "F R' F' R F R' F' R",
+    "solutions": ["y' (R' U' R U)(R' U' R)"]
   },
   {
     "id": 30,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRD",
+        "orientationFrontFace": "D"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "RU",
+        "orientationFrontFace": "U"
       }
-    }
+    },
+    "scramble": "R U' R' U R U' R'",
+    "solutions": ["(R U R' U')(R U R')"]
   },
   {
     "id": 31,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRU",
+        "orientationFrontFace": "R"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FR",
+        "orientationFrontFace": "R"
       }
-    }
+    },
+    "scramble": "F' U' F U' R U R'",
+    "solutions": ["(R U' R') Dw (R' U R)"]
   },
   {
     "id": 32,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRU",
+        "orientationFrontFace": "R"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FR",
+        "orientationFrontFace": "F"
       }
-    }
+    },
+    "scramble": "R U' R' U R U' R' U R U' R'",
+    "solutions": ["(R U R' U')(R U R' U')(R U R')"]
   },
   {
     "id": 33,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRU",
+        "orientationFrontFace": "U"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FR",
+        "orientationFrontFace": "F"
       }
-    }
+    },
+    "scramble": "R U R' U2 R U R' U",
+    "solutions": ["(U' R U' R') U2 (R U' R')"]
   },
   {
     "id": 34,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRU",
+        "orientationFrontFace": "F"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FR",
+        "orientationFrontFace": "F"
       }
-    }
+    },
+    "scramble": "R U' R' U' R U2 R'",
+    "solutions": ["U (R U R') U2 (R U R')"]
   },
   {
     "id": 35,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRU",
+        "orientationFrontFace": "U"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FR",
+        "orientationFrontFace": "R"
       }
-    }
+    },
+    "scramble": "F' U F U R U R' U2",
+    "solutions": ["(U' R U R') Dw (R' U' R)"]
   },
   {
     "id": 36,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRU",
+        "orientationFrontFace": "R"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FR",
+        "orientationFrontFace": "R"
       }
-    }
+    },
+    "scramble": "R U' R' U F' U F U'",
+    "solutions": ["Dw (R' U' R) Dw' (R U R')"]
   },
   {
     "id": 37,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRD",
+        "orientationFrontFace": "D"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FR",
+        "orientationFrontFace": "R"
       }
-    }
+    },
+    "scramble": "F2 U2 R' F2 R U2 F U F",
+    "solutions": ["R' F R F' R U' R' U R U' R' U2 R U' R' "]
   },
   {
     "id": 38,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRD",
+        "orientationFrontFace": "R"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FR",
+        "orientationFrontFace": "F"
       }
-    }
+    },
+    "scramble": "R U R' U2 R U' R' U R U R'",
+    "solutions": ["R U R' U' R U2 R' U' R U R'"]
   },
   {
     "id": 39,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRD",
+        "orientationFrontFace": "D"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FR",
+        "orientationFrontFace": "F"
       }
-    }
+    },
+    "scramble": "R U R' U' R U2 R' U' R U R'",
+    "solutions": ["(R U R') U2 (R U' R' U)(R U R')"]
   },
   {
     "id": 40,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRD",
+        "orientationFrontFace": "R"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FR",
+        "orientationFrontFace": "R"
       }
-    }
+    },
+    "scramble": "F' U2 L' U' L2 F' L' F2",
+    "solutions": ["R U' R' Dw R' U' R U' R' U' R"]
   },
   {
     "id": 41,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRD",
+        "orientationFrontFace": "D"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FR",
+        "orientationFrontFace": "R"
       }
-    }
+    },
+    "scramble": "F2 L' U' L U F U' F",
+    "solutions": ["R U' R' U Dw R' U' R U' R' U R"]
   },
   {
     "id": 42,
-    "setup": {
+    "configuration": {
       "corner": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FRD",
+        "orientationFrontFace": "F"
       },
       "edge": {
-        "position": "",
-        "orientationFrontFace": ""
+        "position": "FR",
+        "orientationFrontFace": "F"
       }
-    }
+    },
+    "scramble": "",
+    "solutions": [""]
   }
 ]

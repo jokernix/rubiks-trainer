@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 
 import { cubeSettingsForF2l } from '../../assets/cube-settings';
 import situations from '../../assets/f2l';
+import '../../styles/search-f2l.scss';
 import Cube3D from '../cube3D/Cube3D';
+import Situation from '../Situation';
 
 class SearchF2L extends Component {
   constructor(props) {
@@ -13,7 +15,8 @@ class SearchF2L extends Component {
       selectedPieces: {
         edge: null,
         corner: null
-      }
+      },
+      foundSituation: null
     };
   }
 
@@ -37,35 +40,41 @@ class SearchF2L extends Component {
 
   selectPiece(piece, key) {
     if (piece == null || piece.position !== key) {
-      return { position: key, orientationFrontSide: key[0] };
+      return { position: key, orientationFrontFace: key[0] };
     }
 
-    const orientationIdx = piece.position.indexOf(piece.orientationFrontSide);
+    const orientationIdx = piece.position.indexOf(piece.orientationFrontFace);
     if (orientationIdx === -1 || orientationIdx >= piece.position.length - 1) {
       return null;
     }
 
-    return { ...piece, orientationFrontSide: key[orientationIdx + 1] };
+    return { ...piece, orientationFrontFace: key[orientationIdx + 1] };
   }
 
   findSituation(corner, edge) {
-    if (corner == null || edge == null) return;
+    if (corner == null || edge == null) {
+      this.setState(() => ({ foundSituation: null }));
+      return;
+    }
 
     const situation = situations.find(
       s =>
-        s.setup.corner.orientationFrontFace === corner.orientationFrontSide &&
-        s.setup.edge.orientationFrontFace === edge.orientationFrontSide &&
-        s.setup.corner.position === corner.position &&
-        s.setup.edge.position === edge.position
+        s.configuration.corner.orientationFrontFace === corner.orientationFrontFace &&
+        s.configuration.edge.orientationFrontFace === edge.orientationFrontFace &&
+        s.configuration.corner.position === corner.position &&
+        s.configuration.edge.position === edge.position
     );
 
     console.log(situation);
+
+    this.setState(() => ({ foundSituation: situation }));
   }
 
   render() {
     return (
-      <div>
+      <div className="search-f2l-container">
         <Cube3D {...this.state} f2lMode={true} clickOnPiece={this.clickOnPiece.bind(this)} />
+        <Situation {...this.state} />
       </div>
     );
   }

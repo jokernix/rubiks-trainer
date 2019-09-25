@@ -12,13 +12,6 @@ const Cube3D = props => {
 
   const { f2lMode } = props;
 
-  const reg = /^(F|B)?(L|R)?(U|D)?$/;
-  piecesArray.forEach(piece => {
-    if (!reg.test(piece.key)) {
-      console.log(reg.test(piece.key), piece.key);
-    }
-  });
-
   return (
     <div className="cube-container">
       <div
