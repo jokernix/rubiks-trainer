@@ -13,7 +13,11 @@
     },
     "scramble": "R U R' U'",
     "solutions": [
-      "U R U' R'"
+      "U R U' R'",
+      "R' F R F'",
+      "U2 R U2 R'",
+      "M' (U R U' Rw')",
+      "y U2 R2 F R F' R"
     ]
   },
   {
@@ -29,7 +33,14 @@
       }
     },
     "scramble": "F' U' F U",
-    "solutions": ["F R' F' R"]
+    "solutions": [
+      "F R' F' R",
+      "U' (F' U F)",
+      "Dw' (L' U L)",
+      "y (U' L' U L)",
+      "y' (U' R' U R)",
+      "(Rw U R' U') M"
+    ]
   },
   {
     "id": 3,
@@ -44,7 +55,12 @@
       }
     },
     "scramble": "F' U F",
-    "solutions": ["y' (R' U' R)"]
+    "solutions": [
+      "y' (R' U' R)",
+      "F' U' F",
+      "y L' U' L",
+      "y' R' U R U R' U R"
+    ]
   },
   {
     "id": 4,
@@ -59,7 +75,10 @@
       }
     },
     "scramble": "R U' R'",
-    "solutions": ["(R U R')"]
+    "solutions": [
+      "(R U R')",
+      "y2 L U L'"
+    ]
   },
   {
     "id": 5,
@@ -74,7 +93,9 @@
       }
     },
     "scramble": "R U R' U2 R U' R' U",
-    "solutions": ["(U' R U R') U2 (R U' R')"]
+    "solutions": [
+      "(U' R U R') U2 (R U' R')"
+    ]
   },
   {
     "id": 6,
@@ -89,7 +110,9 @@
       }
     },
     "scramble": "F' U' F U2 F' U F U'",
-    "solutions": ["y' (U R' U' R) U2 (R' U R)"]
+    "solutions": [
+      "y' (U R' U' R) U2 (R' U R)"
+    ]
   },
   {
     "id": 7,
@@ -104,7 +127,9 @@
       }
     },
     "scramble": "R U R' U2 R U2 R' U",
-    "solutions": ["U' (R U2' R') U2 (R U' R')"]
+    "solutions": [
+      "U' (R U2' R') U2 (R U' R')"
+    ]
   },
   {
     "id": 8,
@@ -119,7 +144,9 @@
       }
     },
     "scramble": "F' U' F U2 F' U2 F U'",
-    "solutions": ["y' U (R' U2 R) U2 (R' U R)"]
+    "solutions": [
+      "y' U (R' U2 R) U2 (R' U R)"
+    ]
   },
   {
     "id": 9,
@@ -134,7 +161,9 @@
       }
     },
     "scramble": "F' U F U F' U F U'",
-    "solutions": ["U' R U' R' Dw R' U' R"]
+    "solutions": [
+      "U' R U' R' Dw R' U' R"
+    ]
   },
   {
     "id": 10,
@@ -149,7 +178,9 @@
       }
     },
     "scramble": "R U' R' U R U R' U",
-    "solutions": ["U' (R U R' U)(R U R')"]
+    "solutions": [
+      "U' (R U R' U)(R U R')"
+    ]
   },
   {
     "id": 11,
@@ -164,7 +195,9 @@
       }
     },
     "scramble": "F' U F U' R U2 R' U",
-    "solutions": ["U' (R U2' R') Dw (R' U' R)"]
+    "solutions": [
+      "U' (R U2' R') Dw (R' U' R)"
+    ]
   },
   {
     "id": 12,
@@ -179,7 +212,9 @@
       }
     },
     "scramble": "R U' R' U F' U2 F U'",
-    "solutions": ["Dw (R' U2 R) Dw' (R U R')"]
+    "solutions": [
+      "Dw (R' U2 R) Dw' (R U R')"
+    ]
   },
   {
     "id": 13,
@@ -194,7 +229,9 @@
       }
     },
     "scramble": "F' U F U F' U' F U'",
-    "solutions": ["y' U (R' U R U')(R' U' R)"]
+    "solutions": [
+      "y' U (R' U R U')(R' U' R)"
+    ]
   },
   {
     "id": 14,
@@ -209,7 +246,9 @@
       }
     },
     "scramble": "R U' R' U' R U R' U",
-    "solutions": ["U' (R U' R' U)(R U R')"]
+    "solutions": [
+      "U' (R U' R' U)(R U R')"
+    ]
   },
   {
     "id": 15,
@@ -224,7 +263,9 @@
       }
     },
     "scramble": "R U' R' U2 F' U' F",
-    "solutions": ["y (L' U L) U2 y' (R U R')"]
+    "solutions": [
+      "y (L' U L) U2 y' (R U R')"
+    ]
   },
   {
     "id": 16,
@@ -239,7 +280,9 @@
       }
     },
     "scramble": "F' U F U2 R U R'",
-    "solutions": ["(R U' R' U) Dw (R' U' R)"]
+    "solutions": [
+      "(R U' R' U) Dw (R' U' R)"
+    ]
   },
   {
     "id": 17,
@@ -254,7 +297,9 @@
       }
     },
     "scramble": "R U' R' U R U2 R'",
-    "solutions": ["(R U2 R') U' (R U R')"]
+    "solutions": [
+      "(R U2 R') U' (R U R')"
+    ]
   },
   {
     "id": 18,
@@ -269,7 +314,9 @@
       }
     },
     "scramble": "F' U F U' F' U2 F",
-    "solutions": ["y' (R' U2 R) U (R' U' R)"]
+    "solutions": [
+      "y' (R' U2 R) U (R' U' R)"
+    ]
   },
   {
     "id": 19,
@@ -284,7 +331,9 @@
       }
     },
     "scramble": "F R' F' R2 U2 R' U'",
-    "solutions": ["U R U2 R2 (F R F')"]
+    "solutions": [
+      "U R U2 R2 (F R F')"
+    ]
   },
   {
     "id": 20,
@@ -299,7 +348,9 @@
       }
     },
     "scramble": "R' F R F2 U2 F U",
-    "solutions": ["y' U' (R' U2 R) U' (R' U R)"]
+    "solutions": [
+      "y' U' (R' U2 R) U' (R' U R)"
+    ]
   },
   {
     "id": 21,
@@ -314,7 +365,9 @@
       }
     },
     "scramble": "R U' R' U2 R U R'",
-    "solutions": ["(R U' R') U2 (R U R')"]
+    "solutions": [
+      "(R U' R') U2 (R U R')"
+    ]
   },
   {
     "id": 22,
@@ -329,7 +382,9 @@
       }
     },
     "scramble": "F' L' U2 L F",
-    "solutions": ["y' (R' U R) U2 (R' U' R)"]
+    "solutions": [
+      "y' (R' U R) U2 (R' U' R)"
+    ]
   },
   {
     "id": 23,
@@ -344,7 +399,9 @@
       }
     },
     "scramble": "R2 U R' U R U2 R2 U2",
-    "solutions": ["(R U R'U')U'(R U R'U')(R U R')"]
+    "solutions": [
+      "(R U R'U')U'(R U R'U')(R U R')"
+    ]
   },
   {
     "id": 24,
@@ -359,7 +416,9 @@
       }
     },
     "scramble": "R U' R' F' L' U' L F U'",
-    "solutions": ["U F' L' U L F R U R'"]
+    "solutions": [
+      "U F' L' U L F R U R'"
+    ]
   },
   {
     "id": 25,
@@ -374,7 +433,9 @@
       }
     },
     "scramble": "R U R' U' F' U' F U",
-    "solutions": ["y U' (L' U L) U (R U R')"]
+    "solutions": [
+      "y U' (L' U L) U (R U R')"
+    ]
   },
   {
     "id": 26,
@@ -389,7 +450,9 @@
       }
     },
     "scramble": "F' U' F U R U R' U'",
-    "solutions": ["U (R U R') y U' (L' U' L)"]
+    "solutions": [
+      "U (R U R') y U' (L' U' L)"
+    ]
   },
   {
     "id": 27,
@@ -404,7 +467,9 @@
       }
     },
     "scramble": "R U R' U' R U R'",
-    "solutions": ["(R U' R' U)(R U' R')"]
+    "solutions": [
+      "(R U' R' U)(R U' R')"
+    ]
   },
   {
     "id": 28,
@@ -419,7 +484,9 @@
       }
     },
     "scramble": "R' F R F' U R U' R'",
-    "solutions": ["(R U R' U') F R' F' R"]
+    "solutions": [
+      "(R U R' U') F R' F' R"
+    ]
   },
   {
     "id": 29,
@@ -434,7 +501,9 @@
       }
     },
     "scramble": "F R' F' R F R' F' R",
-    "solutions": ["y' (R' U' R U)(R' U' R)"]
+    "solutions": [
+      "y' (R' U' R U)(R' U' R)"
+    ]
   },
   {
     "id": 30,
@@ -449,7 +518,9 @@
       }
     },
     "scramble": "R U' R' U R U' R'",
-    "solutions": ["(R U R' U')(R U R')"]
+    "solutions": [
+      "(R U R' U')(R U R')"
+    ]
   },
   {
     "id": 31,
@@ -464,7 +535,9 @@
       }
     },
     "scramble": "F' U' F U' R U R'",
-    "solutions": ["(R U' R') Dw (R' U R)"]
+    "solutions": [
+      "(R U' R') Dw (R' U R)"
+    ]
   },
   {
     "id": 32,
@@ -479,7 +552,9 @@
       }
     },
     "scramble": "R U' R' U R U' R' U R U' R'",
-    "solutions": ["(R U R' U')(R U R' U')(R U R')"]
+    "solutions": [
+      "(R U R' U')(R U R' U')(R U R')"
+    ]
   },
   {
     "id": 33,
@@ -494,7 +569,9 @@
       }
     },
     "scramble": "R U R' U2 R U R' U",
-    "solutions": ["(U' R U' R') U2 (R U' R')"]
+    "solutions": [
+      "(U' R U' R') U2 (R U' R')"
+    ]
   },
   {
     "id": 34,
@@ -509,7 +586,9 @@
       }
     },
     "scramble": "R U' R' U' R U2 R'",
-    "solutions": ["U (R U R') U2 (R U R')"]
+    "solutions": [
+      "U (R U R') U2 (R U R')"
+    ]
   },
   {
     "id": 35,
@@ -524,7 +603,9 @@
       }
     },
     "scramble": "F' U F U R U R' U2",
-    "solutions": ["(U' R U R') Dw (R' U' R)"]
+    "solutions": [
+      "(U' R U R') Dw (R' U' R)"
+    ]
   },
   {
     "id": 36,
@@ -539,7 +620,9 @@
       }
     },
     "scramble": "R U' R' U F' U F U'",
-    "solutions": ["Dw (R' U' R) Dw' (R U R')"]
+    "solutions": [
+      "Dw (R' U' R) Dw' (R U R')"
+    ]
   },
   {
     "id": 37,
@@ -554,7 +637,9 @@
       }
     },
     "scramble": "F2 U2 R' F2 R U2 F U F",
-    "solutions": ["R' F R F' R U' R' U R U' R' U2 R U' R' "]
+    "solutions": [
+      "R' F R F' R U' R' U R U' R' U2 R U' R' "
+    ]
   },
   {
     "id": 38,
@@ -569,7 +654,9 @@
       }
     },
     "scramble": "R U R' U2 R U' R' U R U R'",
-    "solutions": ["R U R' U' R U2 R' U' R U R'"]
+    "solutions": [
+      "R U R' U' R U2 R' U' R U R'"
+    ]
   },
   {
     "id": 39,
@@ -584,7 +671,9 @@
       }
     },
     "scramble": "R U R' U' R U2 R' U' R U R'",
-    "solutions": ["(R U R') U2 (R U' R' U)(R U R')"]
+    "solutions": [
+      "(R U R') U2 (R U' R' U)(R U R')"
+    ]
   },
   {
     "id": 40,
@@ -599,7 +688,9 @@
       }
     },
     "scramble": "F' U2 L' U' L2 F' L' F2",
-    "solutions": ["R U' R' Dw R' U' R U' R' U' R"]
+    "solutions": [
+      "R U' R' Dw R' U' R U' R' U' R"
+    ]
   },
   {
     "id": 41,
@@ -614,7 +705,9 @@
       }
     },
     "scramble": "F2 L' U' L U F U' F",
-    "solutions": ["R U' R' U Dw R' U' R U' R' U R"]
+    "solutions": [
+      "R U' R' U Dw R' U' R U' R' U R"
+    ]
   },
   {
     "id": 42,
@@ -629,6 +722,8 @@
       }
     },
     "scramble": "",
-    "solutions": [""]
+    "solutions": [
+      ""
+    ]
   }
 ]

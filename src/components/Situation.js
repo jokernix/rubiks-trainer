@@ -10,7 +10,7 @@ const Situation = ({ situation }) => {
 
   return (
     <div>
-      <p>Scramble</p>
+      <p>Setup</p>
       <code>{situation.scramble}</code>
 
       <p>Решения:</p>
