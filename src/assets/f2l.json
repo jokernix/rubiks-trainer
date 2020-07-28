@@ -1,0 +1,543 @@
+[
+  {
+    "id": 0,
+    "config": {
+      "front": "XRXRRXRRR",
+      "top": "XXXGXXXXX",
+      "right": "XXXXGGGGG"
+    },
+    "solutions": [
+      "U R U' R' U' y L' U L",
+      "U R U' R' U' F' U F",
+      "U R U R' U' F' U' F"
+    ]
+  },
+  {
+    "id": 1,
+    "config": {
+      "front": "XXXRRXRRR",
+      "top": "XXXXXXXRX",
+      "right": "XGXXGGGGG"
+    },
+    "solutions": [
+      "y U' L' U L U y' R U' R'",
+      "U' F' U F U R U' R'",
+      "R' F' R U R U' R' F",
+      "U' R' F R F' R U R'"
+    ]
+  },
+  {
+    "id": 2,
+    "config": {
+      "front": "XXWRRXRRX",
+      "top": "XXXXXXRRX",
+      "right": "GGXXGGXGG"
+    },
+    "solutions": [
+      "U R U' R'",
+      "R' F R F'"
+    ]
+  },
+  {
+    "id": 3,
+    "config": {
+      "front": "XRRRRXRRX",
+      "top": "XXXGXXGXX",
+      "right": "WXXXGGXGG"
+    },
+    "solutions": [
+      "y U' L' U L",
+      "F R' F' R"
+    ]
+  },
+  {
+    "id": 4,
+    "config": {
+      "front": "XXRRRXRRX",
+      "top": "XXXXXRGXX",
+      "right": "WXXXGGXGG"
+    },
+    "solutions": [
+      "R U R'",
+      "y2 L U L'",
+      "y F U F'"
+    ]
+  },
+  {
+    "id": 5,
+    "config": {
+      "front": "XXWRRXRRX",
+      "top": "XGXXXXRXX",
+      "right": "GXXXGGXGG"
+    },
+    "solutions": [
+      "y L' U' L",
+      "F' U' F",
+      "y' R' U' R"
+    ]
+  },
+  {
+    "id": 6,
+    "config": {
+      "front": "XXWRRXRRX",
+      "top": "XRXXXXRXX",
+      "right": "GXXXGGXGG"
+    },
+    "solutions": [
+      "U' R U2 R' U2 R U' R'",
+      "U' R U2 R' U' R U2 R'",
+      "U' R U2 R' U R' F R F'"
+    ]
+  },
+  {
+    "id": 7,
+    "config": {
+      "front": "XXRRRXRRX",
+      "top": "XGXXXXGXX",
+      "right": "WXXXGGXGG"
+    },
+    "solutions": [
+      "Dw R' U' R U2 R' U R",
+      "y U L' U' L U2 L' U L",
+      "U' Rw U' R' U R U Rw'"
+    ]
+  },
+  {
+    "id": 8,
+    "config": {
+      "front": "XXWRRXRRX",
+      "top": "XXXXXRRXX",
+      "right": "GXXXGGXGG"
+    },
+    "solutions": [
+      "U' R U R' U2 R U' R'",
+      "U' R U R' U' R U2 R'",
+      "U' R U R' U R' F R F'"
+    ]
+  },
+  {
+    "id": 9,
+    "config": {
+      "front": "XXRRRXRRX",
+      "top": "XXXXXGGXX",
+      "right": "WXXXGGXGG"
+    },
+    "solutions": [
+      "Dw R' U2 R U2 R' U R",
+      "Rw' U2 R2 U R2’ U Rw",
+      "y U L' U2 L U2 L' U L"
+    ]
+  },
+  {
+    "id": 10,
+    "config": {
+      "front": "XXWRRXRRX",
+      "top": "XXXXXGRXX",
+      "right": "GXXXGGXGG"
+    },
+    "solutions": [
+      "U' R U' R' U F' U' F",
+      "U' R U' R' Dw R' U' R",
+      "F R U R' U' F' R U' R'"
+    ]
+  },
+  {
+    "id": 11,
+    "config": {
+      "front": "XXRRRXRRX",
+      "top": "XRXXXXGXX",
+      "right": "WXXXGGXGG"
+    },
+    "solutions": [
+      "U' R U R' U R U R'",
+      "U y' R' U R U' y R U R'",
+      "U2 R U' R' U' R U R'"
+    ]
+  },
+  {
+    "id": 12,
+    "config": {
+      "front": "XRWRRXRRX",
+      "top": "XXXGXXRXX",
+      "right": "GXXXGGXGG"
+    },
+    "solutions": [
+      "y' U R' U R U' R' U' R",
+      "Dw R' U R U' R' U' R",
+      "M' U' R U R' U' R U2 Rw'"
+    ]
+  },
+  {
+    "id": 13,
+    "config": {
+      "front": "XGRRRXRRX",
+      "top": "XXXRXXGXX",
+      "right": "WXXXGGXGG"
+    },
+    "solutions": [
+      "R U' R' U R U' R' U2 R U' R'",
+      "R' U2 R2 U R2 U R",
+      "U F' U2 F U' R U R'"
+    ]
+  },
+  {
+    "id": 14,
+    "config": {
+      "front": "XXWRRXRRX",
+      "top": "XXXXXXRGX",
+      "right": "GRXXGGXGG"
+    },
+    "solutions": [
+      "U' R U2 R' U F' U' F",
+      "U' R U2 R' Dw R' U' R",
+      "y' R U2 R2 U' R2 U' R'"
+    ]
+  },
+  {
+    "id": 15,
+    "config": {
+      "front": "XXRRRXRRX",
+      "top": "XXXXXXGRX",
+      "right": "WGXXGGXGG"
+    },
+    "solutions": [
+      "U' R U' R' U R U R'",
+      "y L' U2 L U2 F U2 F' U F U' F'",
+      "R U' R' U R U2 R' U2 R U' R'"
+    ]
+  },
+  {
+    "id": 16,
+    "config": {
+      "front": "XGWRRXRRX",
+      "top": "XXXRXXRXX",
+      "right": "GXXXGGXGG"
+    },
+    "solutions": [
+      "R U R' U2 R U' R' U R U' R'",
+      "y L' U L U2 y' R U R'",
+      "R U2 R' U R U R' U R U' R'"
+    ]
+  },
+  {
+    "id": 17,
+    "config": {
+      "front": "XXRRRXRRX",
+      "top": "XXXXXXGGX",
+      "right": "WRXXGGXGG"
+    },
+    "solutions": [
+      "R U' R' U2 F' U' F",
+      "R U' R' U2 y L' U' L",
+      "R U' R' U Dw R' U' R"
+    ]
+  },
+  {
+    "id": 18,
+    "config": {
+      "front": "XXGRRXRRX",
+      "top": "XXXXXXWRX",
+      "right": "RGXXGGXGG"
+    },
+    "solutions": [
+      "R U2 R' U' R U R'",
+      "y L F' L' F L' U L U' L' U L",
+      "U' R U' R' U2 R U2 R2 F R F'"
+    ]
+  },
+  {
+    "id": 19,
+    "config": {
+      "front": "XRGRRXRRX",
+      "top": "XXXGXXWXX",
+      "right": "RXXXGGXGG"
+    },
+    "solutions": [
+      "y' R' U2 R U R' U' R",
+      "y L' U2 L U L' U' L",
+      "R' F R F' R U' R' U R U' R'"
+    ]
+  },
+  {
+    "id": 20,
+    "config": {
+      "front": "XXGRRXRRX",
+      "top": "XXXXXRWXX",
+      "right": "RXXXGGXGG"
+    },
+    "solutions": [
+      "U R U2 R' U R U' R'",
+      "U R U2 R2 F R F'",
+      "R U' R' U R U' R' U R U R'"
+    ]
+  },
+  {
+    "id": 21,
+    "config": {
+      "front": "XXGRRXRRX",
+      "top": "XRXXXXWXX",
+      "right": "RXXXGGXGG"
+    },
+    "solutions": [
+      "U2 R U R' U R U' R'",
+      "R U' R' U2 R U R'",
+      "y F R U2 R' F'"
+    ]
+  },
+  {
+    "id": 22,
+    "config": {
+      "front": "XXGRRXRRX",
+      "top": "XGXXXXWXX",
+      "right": "RXXXGGXGG"
+    },
+    "solutions": [
+      "y' U' R' U2 R U' R' U R",
+      "y U' L' U2 L U' L' U L",
+      "U' R U' R2 F R F' R U' R'"
+    ]
+  },
+  {
+    "id": 23,
+    "config": {
+      "front": "XXGRRXRRX",
+      "top": "XXXXXGWXX",
+      "right": "RXXXGGXGG"
+    },
+    "solutions": [
+      "F' L' U2 L F",
+      "y' U2 R' U' R U' R' U R",
+      "Rw U' Rw' U2 Rw U Rw'"
+    ]
+  },
+  {
+    "id": 24,
+    "config": {
+      "front": "XGGRRXRRX",
+      "top": "XXXRXXWXX",
+      "right": "RXXXGGXGG"
+    },
+    "solutions": [
+      "R U R' U2 R U R' U' R U R'",
+      "U R U' R' U' R U' R' U R U' R'",
+      "U2 R2 U2 R' U' R U' R2"
+    ]
+  },
+  {
+    "id": 25,
+    "config": {
+      "front": "XXGRRXRRX",
+      "top": "XXXXXXWGX",
+      "right": "RRXXGGXGG"
+    },
+    "solutions": [
+      "F U R U' R' F' R U' R'",
+      "U' R U R2 F R F' R U' R'",
+      "y U' L' U L U L' U L U' L' U L"
+    ]
+  },
+  {
+    "id": 26,
+    "config": {
+      "front": "XRXRRXRRW",
+      "top": "XXXGXXXXX",
+      "right": "XXXXGGRGG"
+    },
+    "solutions": [
+      "R' F R F' R' F R F'",
+      "y L' U' L U L' U' L",
+      "y' R' U' R U R' U' R"
+    ]
+  },
+  {
+    "id": 27,
+    "config": {
+      "front": "XXXRRXRRW",
+      "top": "XXXXXXXRX",
+      "right": "XGXXGGRGG"
+    },
+    "solutions": [
+      "R U' R' U R U' R'",
+      "R U' R2 F R F'",
+      "y L' U' L U2 F U' F'"
+    ]
+  },
+  {
+    "id": 28,
+    "config": {
+      "front": "XRXRRXRRG",
+      "top": "XXXGXXXXX",
+      "right": "XXXXGGWGG"
+    },
+    "solutions": [
+      "R U R' U' F R' F' R",
+      "y L' U L U' L' U L",
+      "y' R' U R U' R' U R"
+    ]
+  },
+  {
+    "id": 29,
+    "config": {
+      "front": "XXXRRXRRG",
+      "top": "XXXXXXXRX",
+      "right": "XGXXGGWGG"
+    },
+    "solutions": [
+      "R U R' U' R U R'",
+      "F R' F' R F R' F' R",
+      "y U' L' U' L U2 F U2 F' U F U' F'"
+    ]
+  },
+  {
+    "id": 30,
+    "config": {
+      "front": "XXGRRGRRX",
+      "top": "XXXXXXWXX",
+      "right": "RXXRGGXGG"
+    },
+    "solutions": [
+      "U' R' F R F' R U' R'",
+      "R U' R' y L' U2 L",
+      "l F' R U' R' U l'"
+    ]
+  },
+  {
+    "id": 31,
+    "config": {
+      "front": "XXWRRGRRX",
+      "top": "XXXXXXRXX",
+      "right": "GXXRGGXGG"
+    },
+    "solutions": [
+      "U' R U R' U F' U' F",
+      "U2 R U R' F R' F' R",
+      "U M' U R U' Rw' R U' R'"
+    ]
+  },
+  {
+    "id": 32,
+    "config": {
+      "front": "XXGRRRRRX",
+      "top": "XXXXXXWXX",
+      "right": "RXXGGGXGG"
+    },
+    "solutions": [
+      "R U R' U' R U R' U' R U R'",
+      "U R U' R' U R U' R' U R U' R'",
+      "R2 U R2 U R2 U2 R2"
+    ]
+  },
+  {
+    "id": 33,
+    "config": {
+      "front": "XXRRRGRRX",
+      "top": "XXXXXXGXX",
+      "right": "WXXRGGXGG"
+    },
+    "solutions": [
+      "U2 R' F R F' U2 R U R'",
+      "U F' U' F U' R U R'",
+      "R2 u R U R' U' u' R' U R'"
+    ]
+  },
+  {
+    "id": 34,
+    "config": {
+      "front": "XXWRRRRRX",
+      "top": "XXXXXXRXX",
+      "right": "GXXGGGXGG"
+    },
+    "solutions": [
+      "U' R U' R' U2 R U' R'",
+      "U' R U' R' U R' F R F'",
+      "R U R' U' R U' R' U R U' R'"
+    ]
+  },
+  {
+    "id": 35,
+    "config": {
+      "front": "XXRRRRRRX",
+      "top": "XXXXXXGXX",
+      "right": "WXXGGGXGG"
+    },
+    "solutions": [
+      "U R U R' U2 R U R'",
+      "U' R U2 R' U R U R'",
+      "y U L' U L U2 L' U L"
+    ]
+  },
+  {
+    "id": 36,
+    "config": {
+      "front": "XXRRRRRRX",
+      "top": "XXXXXXGXX",
+      "right": "WXXGGGXGG"
+    },
+    "solutions": [
+      "U R U R' U2 R U R'",
+      "U' R U2 R' U R U R'",
+      "y U L' U L U2 L' U L"
+    ]
+  },
+  {
+    "id": 37,
+    "config": {
+      "front": "XXXRRGRRG",
+      "top": "XXXXXXXXX",
+      "right": "XXXRGGWGG"
+    },
+    "solutions": [
+      "R U R' U' R U' R' U2 y' R' U' R",
+      "R U F R U R' U' F' R'",
+      "R U' R' F' L' U2 L F"
+    ]
+  },
+  {
+    "id": 38,
+    "config": {
+      "front": "XXXRRGRRW",
+      "top": "XXXXXXXXX",
+      "right": "XXXRGGRGG"
+    },
+    "solutions": [
+      "R U' R' F R U R' U' F' R U' R'",
+      "Rw U' Rw' U2 Rw U Rw' R U R'",
+      "R F U R U' R' F' U' R'"
+    ]
+  },
+  {
+    "id": 39,
+    "config": {
+      "front": "XXXRRRRRG",
+      "top": "XXXXXXXXX",
+      "right": "XXXGGGWGG"
+    },
+    "solutions": [
+      "R U R' U2 R U' R' U R U R'",
+      "R U' R' U R U2 R' U R U' R'",
+      "R U2 R U R' U R U2 R2"
+    ]
+  },
+  {
+    "id": 40,
+    "config": {
+      "front": "XXXRRRRRW",
+      "top": "XXXXXXXXX",
+      "right": "XXXGGGRGG"
+    },
+    "solutions": [
+      "R U R' U' R U2 R' U' R U R'",
+      "R U' R' U' R U R' U2 R U' R'",
+      "R2 U2 R' U' R U' R' U2 R'"
+    ]
+  },
+  {
+    "id": 41,
+    "config": {
+      "front": "XXXRRRRRR",
+      "top": "XXXXXXXXX",
+      "right": "XXXGGGGGG"
+    },
+    "solutions": [""]
+  }
+]
